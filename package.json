@@ -1,0 +1,23 @@
+{
+	"name": "prisma",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"db:seed": "tsx prisma/seed.ts",
+		"db:migrate": "prisma migrate dev",
+		"db:reset": "prisma migrate reset"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@prisma/client": "^5.13.0"
+	},
+	"devDependencies": {
+		"@faker-js/faker": "^8.4.1",
+		"@types/node": "^20.12.11",
+		"prisma": "^5.13.0",
+		"tsx": "^4.9.3",
+		"typescript": "^5.4.5"
+	}
+}
